@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sterp.DapperExecute", "Sterp.DapperExecute.csproj", "{A9322797-057D-4547-A888-DCD39F4917F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9322797-057D-4547-A888-DCD39F4917F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9322797-057D-4547-A888-DCD39F4917F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9322797-057D-4547-A888-DCD39F4917F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9322797-057D-4547-A888-DCD39F4917F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3041C961-F9DC-4071-8F98-4B3CA873A99E}
+	EndGlobalSection
+EndGlobal

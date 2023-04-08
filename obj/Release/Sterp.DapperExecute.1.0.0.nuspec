@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Sterp.DapperExecute</id>
+    <version>1.0.0</version>
+    <title>Dapper Execute</title>
+    <authors>Drysdale Chivhanga</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://github.com/drysdale-chivhanga/sterp-dapper-execute</projectUrl>
+    <description>Dapper Execution Implementations</description>
+    <releaseNotes>Added MySql</releaseNotes>
+    <tags>Dapper Execute, Sterp</tags>
+    <repository url="https://github.com/drysdale-chivhanga/sterp-dapper-execute" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Dapper.StrongName" version="2.0.123" exclude="Build,Analyzers" />
+        <dependency id="Pomelo.EntityFrameworkCore.MySql" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="K:\dhura\Sterp.DapperExecute\bin\Release\net6.0\Sterp.DapperExecute.dll" target="lib\net6.0\Sterp.DapperExecute.dll" />
+    <file src="K:\dhura\Sterp.DapperExecute\bin\Release\net6.0\Sterp.DapperExecute.xml" target="lib\net6.0\Sterp.DapperExecute.xml" />
+    <file src="K:\dhura\icon.png" target="\icon.png" />
+  </files>
+</package>

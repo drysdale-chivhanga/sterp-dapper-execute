@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sterp.DapperExecute</name>
+    </assembly>
+    <members>
+        <member name="T:Sterp.DapperExecute.IDataExecute">
+            <summary>
+            Interface.Data.Execute
+            </summary>
+        </member>
+        <member name="M:Sterp.DapperExecute.IDataExecute.GetData``2(System.String,``1,System.String)">
+            <summary>
+            GetData
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="U"></typeparam>
+            <param name="storedProcedure"></param>
+            <param name="parameters"></param>
+            <param name="connectionString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sterp.DapperExecute.IDataExecute.SaveData``1(System.String,``0,System.String)">
+            <summary>
+            SaveData
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="storedProcedure"></param>
+            <param name="parameters"></param>
+            <param name="connectionString"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sterp.DapperExecute.MySqlDataExecute">
+            <summary>
+            MySql.Data.Execute
+            </summary>
+        </member>
+        <member name="M:Sterp.DapperExecute.MySqlDataExecute.GetData``2(System.String,``1,System.String)">
+            <summary>
+            GetData
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="U"></typeparam>
+            <param name="storedProcedure"></param>
+            <param name="parameters"></param>
+            <param name="connectionString"></param>
+            <returns>List</returns>
+        </member>
+        <member name="M:Sterp.DapperExecute.MySqlDataExecute.SaveData``1(System.String,``0,System.String)">
+            <summary>
+            SaveData
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="storedProcedure"></param>
+            <param name="parameters"></param>
+            <param name="connectionString"></param>
+            <returns>Void</returns>
+        </member>
+    </members>
+</doc>

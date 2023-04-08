@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.0</Version>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Dapper Execute </Title>
+		<Description>Dapper Execution Implementations</Description>
+		<PackageProjectUrl>https://github.com/drysdale-chivhanga/sterp-dapper-execute</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/drysdale-chivhanga/sterp-dapper-execute</RepositoryUrl>
+		<PackageTags>Dapper Execute, Sterp</PackageTags>
+		<PackageReleaseNotes>Added MySql</PackageReleaseNotes>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Authors>Drysdale Chivhanga</Authors>
+		<Company>STERP</Company>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+
+		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+		<PackageReference Include="Dapper.StrongName" Version="2.0.123" />
+	</ItemGroup>
+
+</Project>

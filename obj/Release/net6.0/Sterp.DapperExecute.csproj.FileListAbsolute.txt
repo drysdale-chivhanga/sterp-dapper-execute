@@ -1,0 +1,14 @@
+K:\dhura\Sterp.DapperExecute\bin\Release\net6.0\Sterp.DapperExecute.deps.json
+K:\dhura\Sterp.DapperExecute\bin\Release\net6.0\Sterp.DapperExecute.dll
+K:\dhura\Sterp.DapperExecute\bin\Release\net6.0\Sterp.DapperExecute.pdb
+K:\dhura\Sterp.DapperExecute\bin\Release\net6.0\Sterp.DapperExecute.xml
+K:\dhura\Sterp.DapperExecute\obj\Release\net6.0\Sterp.DapperExecute.csproj.AssemblyReference.cache
+K:\dhura\Sterp.DapperExecute\obj\Release\net6.0\Sterp.DapperExecute.GeneratedMSBuildEditorConfig.editorconfig
+K:\dhura\Sterp.DapperExecute\obj\Release\net6.0\Sterp.DapperExecute.AssemblyInfoInputs.cache
+K:\dhura\Sterp.DapperExecute\obj\Release\net6.0\Sterp.DapperExecute.AssemblyInfo.cs
+K:\dhura\Sterp.DapperExecute\obj\Release\net6.0\Sterp.DapperExecute.csproj.CoreCompileInputs.cache
+K:\dhura\Sterp.DapperExecute\obj\Release\net6.0\Sterp.DapperExecute.dll
+K:\dhura\Sterp.DapperExecute\obj\Release\net6.0\refint\Sterp.DapperExecute.dll
+K:\dhura\Sterp.DapperExecute\obj\Release\net6.0\Sterp.DapperExecute.xml
+K:\dhura\Sterp.DapperExecute\obj\Release\net6.0\Sterp.DapperExecute.pdb
+K:\dhura\Sterp.DapperExecute\obj\Release\net6.0\ref\Sterp.DapperExecute.dll

@@ -1,0 +1,5 @@
+K:\dhura\Sterp.DapperExecute\obj\Debug\net6.0\Sterp.DapperExecute.csproj.AssemblyReference.cache
+K:\dhura\Sterp.DapperExecute\obj\Debug\net6.0\Sterp.DapperExecute.GeneratedMSBuildEditorConfig.editorconfig
+K:\dhura\Sterp.DapperExecute\obj\Debug\net6.0\Sterp.DapperExecute.AssemblyInfoInputs.cache
+K:\dhura\Sterp.DapperExecute\obj\Debug\net6.0\Sterp.DapperExecute.AssemblyInfo.cs
+K:\dhura\Sterp.DapperExecute\obj\Debug\net6.0\Sterp.DapperExecute.csproj.CoreCompileInputs.cache
