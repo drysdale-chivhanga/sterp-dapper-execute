@@ -9,15 +9,16 @@
             Interface.Data.Execute
             </summary>
         </member>
-        <member name="M:Sterp.DapperExecute.IDataExecute.GetData``2(System.String,``1,System.String)">
+        <member name="M:Sterp.DapperExecute.IDataExecute.GetData``2(System.String,``1,System.String,System.Data.CommandType)">
             <summary>
-            GetData
+            GetData.StoredProcedure
             </summary>
             <typeparam name="T"></typeparam>
             <typeparam name="U"></typeparam>
-            <param name="storedProcedure"></param>
+            <param name="query"></param>
             <param name="parameters"></param>
             <param name="connectionString"></param>
+            <param name="commandType"></param>
             <returns></returns>
         </member>
         <member name="M:Sterp.DapperExecute.IDataExecute.SaveData``1(System.String,``0,System.String)">
@@ -30,21 +31,46 @@
             <param name="connectionString"></param>
             <returns></returns>
         </member>
+        <member name="M:Sterp.DapperExecute.IDataExecute.GetFirstLevelMasterDetailData``3(System.String,``2,System.String)">
+            <summary>
+            GetFirstLevelMasterDetailData
+            </summary>
+            <typeparam name="T1">Master-Entity</typeparam>
+            <typeparam name="T2">Detail-Entities</typeparam>
+            <typeparam name="U">Parameter(s)</typeparam>
+            <param name="storedProcedure"></param>
+            <param name="parameters"></param>
+            <param name="connectionString"></param>
+            <returns>Master.Entity and Detail.Entities</returns>
+        </member>
         <member name="T:Sterp.DapperExecute.MySqlDataExecute">
             <summary>
             MySql.Data.Execute
             </summary>
         </member>
-        <member name="M:Sterp.DapperExecute.MySqlDataExecute.GetData``2(System.String,``1,System.String)">
+        <member name="M:Sterp.DapperExecute.MySqlDataExecute.GetData``2(System.String,``1,System.String,System.Data.CommandType)">
             <summary>
             GetData
             </summary>
             <typeparam name="T"></typeparam>
             <typeparam name="U"></typeparam>
+            <param name="query"></param>
+            <param name="parameters"></param>
+            <param name="connectionString"></param>
+            <param name="cType">commandType</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sterp.DapperExecute.MySqlDataExecute.GetFirstLevelMasterDetailData``3(System.String,``2,System.String)">
+            <summary>
+            GetFirstLevelMasterDetailData
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="U"></typeparam>
             <param name="storedProcedure"></param>
             <param name="parameters"></param>
             <param name="connectionString"></param>
-            <returns>List</returns>
+            <returns></returns>
         </member>
         <member name="M:Sterp.DapperExecute.MySqlDataExecute.SaveData``1(System.String,``0,System.String)">
             <summary>

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Sterp.DapperExecute/1.0.0": {
+      "Sterp.DapperExecute/1.0.8": {
         "dependencies": {
           "Dapper.StrongName": "2.0.123",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
@@ -184,7 +184,7 @@
     }
   },
   "libraries": {
-    "Sterp.DapperExecute/1.0.0": {
+    "Sterp.DapperExecute/1.0.8": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
